@@ -1,0 +1,16 @@
+,,,,=2025-2008,
+20,Annual Return,,,=(F3/F2)^(1/E1)-1, $1.00 
+1.07,Annual Sharpe,,,, $31.76 
+=A2/A3,Volatility,,,,
+,,,,,
+,,,,,
+https://www.investopedia.com/terms/v/volatility.asp,,,,=20.83,
+vol = σ√T,=B10*SQRT(B11),,,=SQRT(52),
+v = volatility over some interval of time,,,,=E7*E8,
+σ =standard deviation of returns,=24.711%/SQRT(365),,,,
+T = number of periods in the time horizon,252,,,,
+,,,,,
+,,,,,
+https://www.wallstreetmojo.com/information-ratio-formula/,,,,,
+Information ratio Formula = (Rp – Rb) / Tracking error,,,,,
+Tracking error = Standard deviation of the excess return with respect to the benchmark rate of return,,,,,
